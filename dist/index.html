@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>oliver.to</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/icon.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Simple line icons-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <!-- jquery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    <body id="page-top">
+        <nav class="navbar navbar-expand navbar-light bg-light fixed-top">
+            <a class="navbar-brand" href="#" id="default_link">oliver website</a>
+            <div class="collapse navbar-collapse" id="navbar">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item" aria-current = "page">
+                  <a class="nav-link d-none d-sm-block" href="#about" id="about_link" data-scroll="about">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item" aria-current = "page">
+                  <a class="nav-link d-none d-sm-block" href="#portfolio" id="portfolio_link" data-scroll="portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item" aria-current = "page">
+                  <a class="nav-link d-none d-sm-block" href="#contact" data-scroll="contact">Contact Me</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="min-vh-100 d-flex justify-content-center align-items-center" id = "profile">
+            <div class="row">
+                <div class="col-lg-5 col-md-12 align-items-center justify-content-center">
+                    <figure class = "rounded-circle" style = "max-width: 350px; max-height: 350px; overflow: hidden; margin: 1rem auto; ">
+                        <img src="assets/pfp_final.png" class="rounded mx-auto d-block img-fluid" alt="my image" style="width: 100%; height: 100%; object-fit: cover;">
+                    </figure>
+                </div>
+                <div class="col-lg-7 col-md-12 text-center" style="margin-top: 3rem;">
+                    <h1 class="mb-3 carousel-fade">Hello! I am Oliver,</h1>
+                    <h3 class="mb-5"><em>an aspiring software engineer from London</em></h3>
+                    <a class="btn btn-primary btn-xl" href="#about" id="about_button">Learn more about me</a>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="content-section bg-light" id="about">
+            <div class="container px-4 px-lg-5 text-center">
+                <div class="content-section-heading text-center">
+                    <h2 class="mb-5">About Me</h2>
+                </div>
+                <div class = "p-3" style="border: dotted 2px #000;">   
+                    <p class="fs-5">I am a 19-year old programmer passionate about software development, and programming innovative solutions to real-world problems.
+                        Currently, I am enrolled at the University of Warwick pursuing a degree in Computer Science,
+                        but when I am not studying I love to challenge myself with complex algorithmic problems on <a target="_blank" href="https://leetcode.com/problemset/algorithms/">Leetcode</a>.
+                        I also love to work on my personal projects, like this website you are on right now made using Boostrap, a mobile-first frontend development framework.</p>
+                    <p class="fs-5">I am actively seeking internships for software development roles. Please take a look at <a href="#portfolio" id="portfolio_button">my portfolio</a></p>   
+                </div>
+            </div>
+        </section>
+    
+        <!-- Portfolio-->
+        <section class="content-section" id="portfolio">
+            <div class="container px-4 px-lg-5">
+                <div class="content-section-heading text-center">
+                    <h2 class="mb-5">Portfolio</h2>
+                </div>
+                <div class="row" style = "margin-top: 5rem;">
+                    <div class="col-lg-6 col-md-12 text-center mb-5">
+                        <h3 class = "mb-5">Education <i class="fas fa-school"></i></h3>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <div data-bs-toggle="collapse" href="#info1" role="button" aria-expanded="false" aria-controls="info1" class="hover-underline">
+                                    International Baccalaureate, Dartford Grammar School
+                                    <span class="float-end">2020 - 2022</span>
+                                </div>
+                                <div class="collapse" id="info1">
+                                    <ul style="padding: 5px; margin-top: 10px;">
+                                        <li class="custom-list-item mb-3">
+                                            <i class="fa-solid fa-arrow-right" style="color: #007bff"></i>&nbsp; Graduated with an IB Diploma, taking higher Mathematics, Physics and Computer Science
+                                        </li>
+                                        <li class="custom-list-item mb-3">
+                                            <i class="fa-solid fa-arrow-right" style="color: #007bff"></i>&nbsp; 43 points total, achieving 7 in all higher level subjects.
+                                        </li>
+                                        <li class="custom-list-item mb-3">
+                                            <i class="fa-solid fa-arrow-right" style="color: #007bff"></i>&nbsp; Completed my Extended Essay on genetic algorithms in image processing, which scored an A
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div data-bs-toggle="collapse" href="#info2" role="button" aria-expanded="false" aria-controls="info2" class="hover-underline">
+                                    Computer Science BSc, University of Warwick
+                                    <span class="float-end">2022 - present</span>
+                                </div>
+                                <div class="collapse" id="info2">
+                                    <ul style="padding: 5px; margin-top: 10px;">
+                                        <li class="custom-list-item mb-3">
+                                            <i class="fa-solid fa-arrow-right" style="color: #007bff"></i>&nbsp; Currently enrolled in my second year at the University of Warwick. 
+                                        </li>
+                                        <li class="custom-list-item mb-3">
+                                            <i class="fa-solid fa-arrow-right" style="color: #007bff"></i>&nbsp; This year I will be taking modules on Software Engineering, Database systems, Operating Systems and Computer Networks, Algorithms and more.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 col-md-12 text-center mb-5">
+                        <h3 class = "mb-5">Experience <i class="fas fa-briefcase"></i></h3>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <div data-bs-toggle="collapse" href="#info3" role="button" aria-expanded="false" aria-controls="info3" class="hover-underline">
+                                    Tech Tutor, Funtech
+                                    <span class="float-end">July - Sept, 2023</span>
+                                </div>
+                                <div class="collapse" id="info3">
+                                    <ul style="padding: 5px; margin-top: 10px;">
+                                        <li class="custom-list-item mb-3">
+                                            <i class="fa-solid fa-arrow-right" style="color: #007bff"></i>&nbsp; I had the opportunity to take the lead in teaching Python to kids of all ages during the summer, providing a solid programming foundation to many young learners.
+                                        </li>
+                                        <li class="custom-list-item mb-3">
+                                            <i class="fa-solid fa-arrow-right" style="color: #007bff"></i>&nbsp; I made Python learning more enjoyable and engaging for kids by creating interactive lessons that linked to hobbies and interests, which strenghtened my communication skills.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div data-bs-toggle="collapse" href="#info4" role="button" aria-expanded="false" aria-controls="info4" class="hover-underline">
+                                    Forage Virtual Experience
+                                    <span class="float-end">Sept, 2023</span>
+                                </div>
+                                <div class="collapse" id="info4">
+                                    <ul style="padding: 5px; margin-top: 10px;">
+                                        <li class="custom-list-item mb-3">
+                                            <i class="fa-solid fa-arrow-right" style="color: #007bff"></i>&nbsp; Currently in progress
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="mb-4 text-center p-3">
+                        Skills
+                    </h3>
+                </div>
+                <div class="row text-center mb-3 justify-content-center">
+                    <div class="col-lg-4 col-md-10 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h4 class="card-title">Java <i class="fab fa-java"></i></h4>
+                                <ul class="card-list">
+                                    <li class = "mb-3"><i class="fa-regular fa-square custom-card-item"></i>&nbsp; Proficient in both Procedural and Object Oriented Programming.</li>
+                                    <li class = "mb-3"><i class="fa-regular fa-square custom-card-item"></i>&nbsp; Programmed a robot to path find its way through a maze, and over successive generations find the optimal path, using OOP.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-10 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h4 class="card-title">Python <i class="fab fa-python"></i></h4>
+                                <ul class="card-list">
+                                    <li class = "mb-3"><i class="fa-regular fa-square custom-card-item"></i>&nbsp; Familiar with Procedural and Object Oriented Programming.</li>
+                                    <li class = "mb-3"><i class="fa-regular fa-square custom-card-item"></i>&nbsp; Created interactive mini-projects using Tkinter and OOP as inspiration for the students at Funtech, including a fully-functioning Pacman program.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-10 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h4 class="card-title">Web Development <i class="fas fa-code"></i></h4>
+                                <ul class="card-list">
+                                    <li class = "mb-3"><i class="fa-regular fa-square custom-card-item"></i>&nbsp; Knowledgeable in HTML, CSS and JavaScript.</li>
+                                    <li class = "mb-3"><i class="fa-regular fa-square custom-card-item"></i>&nbsp; Experience with both front-end and back-end development</li>
+                                    <li class = "mb-3"><i class="fa-regular fa-square custom-card-item"></i>&nbsp; Developed a website to manage events for the CS Department at Warwick, using Flask</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+        <!-- Contact-->
+        <footer class="footer text-center bg-light" id="contact">
+            <div class="container px-4 px-lg-5">
+                <div class="content-section-heading text-center">
+                    <h2 class="mb-4">Contact Me</h2>
+                </div>
+                <div style = "margin-bottom: 5rem;">
+                    <p>Please feel free to send me an email below, and yes, I am open for any opportunities</p>
+                </div>
+                <ul class="list-inline" style="margin-bottom: 8rem;">
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3" target="_blank" href="mailto:olivertouki@gmail.com"><i class="fa-solid fa-square-envelope"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white" target="_blank" href="https://github.com/Sunaion"><i class="fa-brands fa-square-github"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white" target="_blank" href="https://www.linkedin.com/in/oliver-brown-53067a25b/"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                </ul>
+
+                <!-- <div class="mx-auto text-center" style="margin-bottom: 7rem;">
+                    <a href="" download target="_blank" class="btn btn-primary p-3">See my résumé</a>
+                </div> -->
+
+                <div class="border-div mx-auto d-inline-block p-3">
+                    <p>This website was developed by me, Oliver Brown, in Visual Studio Code. Thank you for visiting.</p>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
