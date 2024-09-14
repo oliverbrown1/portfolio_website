@@ -10946,8 +10946,14 @@ body.theme{
 .list-group-item{
   background-color: #222222;
   color: white;
+  margin-right: 5rem;
+  margin-left: 5rem;
 }
 
 .fa-arrow-right{
   color: #ffcd74;
+}
+
+#contact{
+  margin-top: 50px;
 }
