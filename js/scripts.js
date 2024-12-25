@@ -13,11 +13,12 @@ $(document).ready(function () {
 
     setTimeout(() => {
         desc_fade_in_id.classList.add("show");
-    }, 1000); 
+    }, 750); 
 
     setTimeout(() => {
         about_button.classList.add("show");
     }, 1500); 
+
             
     function initColorPicker() {
         var canvas_list = document.querySelectorAll('.colour-canvas')
@@ -30,6 +31,7 @@ $(document).ready(function () {
             var radius = Math.min(width, height) / 2;
             
             var gradient = canvasContext.createConicGradient(0, width / 2, height / 2);
+
         
             // Add color stops to the conic gradient for a full color spectrum (red, yellow, green, etc.)
             gradient.addColorStop(0, 'hsl(0, 100%, 50%)');     // Red
@@ -60,6 +62,7 @@ $(document).ready(function () {
         
             // Detect color on click
             canvas.onclick = function (e) {
+
                 var imgData = canvasContext.getImageData(
                     (e.offsetX / canvas.clientWidth) * canvas.width,
                     (e.offsetY / canvas.clientHeight) * canvas.height,
@@ -72,7 +75,9 @@ $(document).ready(function () {
                 document.documentElement.style.setProperty('--secondary-colour', color);
                 document.documentElement.style.setProperty('--secondary-colour-rgb', color_rgb);
                 console.log(color);
+
             };
+            
         });
     }
 
