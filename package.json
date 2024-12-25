@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@spectrum-web-components/color-wheel": "^1.0.3"
+  }
+}
