@@ -6,6 +6,9 @@
 
 $(document).ready(function () {
     // fade in
+    const tooltipTriggerList = document.querySelectorAll('.tt')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
     const name_fade_in_id = document.getElementById("name_fade_in");
     const desc_fade_in_id = document.getElementById("desc_fade_in")
     const about_button = document.getElementById("about_button")

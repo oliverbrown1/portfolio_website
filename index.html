@@ -10,6 +10,8 @@
         <link rel="icon" type="image/x-icon" href="assets/logo_new.png" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Simple Icons-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-icons@latest/dist/simple-icons.min.css">
         <!-- Simple line icons-->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
         <!-- Google fonts-->
@@ -23,19 +25,19 @@
     <body id="page-top" class = "theme">
         <div id="page_container">
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                <div class="modal-content">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
                     <div class="modal-header">
                     <h1 class="modal-title fs-5" id="exampleModalLabel">Select a colour</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
+                        </div>
                     <div class="modal-body">
                         <canvas class="colour-canvas mt-1" id="color" style="border-radius: 50%;"></canvas>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-theme" data-bs-dismiss="modal">Close</button>
+                        </div>
                     </div>
-                </div>
                 </div>
             </div>
 
@@ -61,9 +63,9 @@
             <header class="min-vh-100 d-flex justify-content-center align-items-center" id = "profile">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 text-center">
-                        <h1 class="mb-3 fade fade-object" id="name_fade_in">Oliver Brown</h1>
-                        <h3 class="mb-5 fade fade-object" id="desc_fade_in" style="font-size: large;"><em>is an aspiring software engineer from London.</em></h3>
-                        <a class="glow-card btn-l p-3 fade fade-object" href="#about" id="about_button" style="margin-top: 1rem; font-size: small;">Learn more about me</a>
+                        <h1 class="mb-4 display-4 fade fade-object" id="name_fade_in">Oliver Brown</h1>
+                        <h3 class="h4 fade fade-object" id="desc_fade_in" style="margin-bottom : 3.5rem"><em>is an aspiring software engineer from London.</em></h3>
+                        <a class="glow-card btn-xl p-3 fade-object mt-5" href="#about" id="about_button" style="font-size: 0.9rem">Learn more about me</a>
                     </div>
                 </div>
             </header>
@@ -206,6 +208,12 @@
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Full-stack Task Manager Web Application</h5>
                                     <p>Created a full-stack productivity web application for users to manage their tasks with a helpful AI assistant based on a Llama model. Built using Next.js and React, as well as PocketBase to maintain a backend data storage.</p>
+                                    <div class="tech-icons mt-1 mb-1">
+                                        <span class="tt me-2" data-bs-placement="top" title="React"><img height="24" width="24" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" /></span>
+                                        <span class="tt me-2" data-bs-placement="top" title="TailwindCSS"><img height="24" width="24" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" /></span>
+                                        <span class="tt me-2" data-bs-placement="top" title="Next.js"><img height="24" width="24" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" /></span>
+                                        <span class="tt" data-bs-placement="top" title="PocketBase"><img height="24" width="24" src="https://cdn.simpleicons.org/pocketbase/0" /></span>
+                                    </div>
                                 </div>
                             </a>
                         </div>
@@ -215,6 +223,9 @@
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Connect 4 using AI</h5>
                                     <p>Developed a MiniMax Algorithm with Alpha/Beta pruning to play a game of Connect 4 optimally against a human player</p>
+                                    <div class="tech-icons mt-1 mb-1">
+                                        <span class="tt" data-bs-placement="top" title="Python"><img height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" /></span>
+                                    </div>
                                 </div>
                             </a>
                         </div>
@@ -224,6 +235,11 @@
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Portfolio Website</h5>
                                     <p>Restructured and customised the code from a Bootstrap template to create this website. Since releasing it, I have been adding new features to make it more interactive and visually appealing.</p>
+                                    <div class="tech-icons mt-1 mb-1">
+                                        <span class="tt me-2" data-bs-placement="top" title="HTML"><img height="24" width="24" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" /></span>
+                                        <span class="tt me-2" data-bs-placement="top" title="Bootstrap"><img height="24" width="24" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" /></span>
+                                        <span class="tt me" data-bs-placement="top" title="JavaScript"><img height="24" width="24" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" /></span>
+                                    </div>
                                 </div>
                             </a>
                         </div>
@@ -233,6 +249,12 @@
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>News Sentiment Analysis Program</h5>
                                     <p>Developed a Python program that scrapes news articles about a certain topic, and provides sentiment analysis to the content of these articles using an NLP model.</p>
+                                    <div class="tech-icons mt-1 mb-1">
+                                        <span class="tt me-2" data-bs-placement="top" title="Python"><img height="24" width="24" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" /></span>
+                                        <span class="tt me-2" data-bs-placement="top" title="Hugging Face"><img height="24" width="24" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" /></span>
+                                        <span class="tt me-2" data-bs-placement="top" title="Pytorch"><img height="24" width="24" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" /></span>
+                                        <span class="tt me-2" data-bs-placement="top" title="Pandas"><img height="24" width="24" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" /></span>
+                                    </div>
                                 </div>
                             </a>
                         </div>
@@ -242,6 +264,9 @@
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Password Management System</h5>
                                     <p>Developed a Password Management System in JavaFX, called PassManager. This was for my Year 13 Computer Science IA.</p>
+                                    <div class="tech-icons mt-1 mb-1">
+                                        <span class="tt me" data-bs-placement="top" title="Java"><img height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" /></span>
+                                    </div>
                                 </div>
                             </a>
                         </div>
@@ -284,7 +309,7 @@
 
 
                     <div class="glow-card d-inline-block p-2">
-                        <p>Created in 2023 using Bootstrap, by Oliver Brown</p>
+                        <p>© Oliver Brown 2025</p>
                     </div>
                 </div>
             </footer>
