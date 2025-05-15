@@ -1,8 +1,3 @@
-/*!
-* Start Bootstrap - Stylish Portfolio v6.0.6 (https://startbootstrap.com/theme/stylish-portfolio)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-stylish-portfolio/blob/master/LICENSE)
-*/
 
 $(document).ready(function () {
     // fade in
@@ -126,26 +121,6 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
         curItem.removeClass('active');
     });
 
-    // const colour_picker = document.getElementById("colour_picker")
-
-    // colour_picker.addEventListener("input", (event) => {
-    //     const selectedColor = event.target.value;
-    //     document.documentElement.style.setProperty('--secondary-colour', selectedColor);
-    // });
-
-    // const colour_wheel = document.getElementById("colour_wheel")
-
-    // colour_wheel.onclick = function(e) {
-    //     console.log("hi")
-    //     console.log()
-
-    //     var canvas = document.getElementById('colour_wheel');
-    //     var canvasContext = canvas.getContext('2d');
-    //   var imgData = canvasContext.getImageData((e.offsetX / canvas.clientWidth) * canvas.width, (e.offsetY / canvas.clientHeight) * canvas.height, 1, 1)
-    //   var rgba = imgData.data;
-    //   var color = "rgba(" + rgba[0] + ", " + rgba[1] + ", " + rgba[2] + ", " + rgba[3] + ")";
-    //   document.documentElement.style.setProperty('--secondary-colour', color);
-    // }
 
 
 });
