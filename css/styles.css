@@ -322,6 +322,15 @@ body.theme{
   color: var(--secondary-colour);
 }
 
+.coloured{
+  color: var(--secondary-colour);
+}
+
+.link{
+  font-weight: bold;
+  color: var(--secondary-colour);
+}
+
 #portfolio_button:hover{
   color: var(--secondary-colour);
 }
